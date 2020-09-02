@@ -2,7 +2,9 @@
 
 Welcome!
 
-Here you will find a series of challenges to complete for your front-end interview. These are exercises based on real-life scenarios similar to the ones you can find in your daily life at Selectra. 
+Here you will find a series of challenges for you to complete as part of Selectra front-end selection process.
+
+These are based on real-life scenarios similar to the ones you can find in your daily life at Selectra. 
 
 ## Challenges
 
@@ -33,10 +35,27 @@ For this test you will create a form (no styling needed) that displays a differe
   - **Submit**: Input type submit. When clicked or invoked, the form has to go through validation before actually submitting the data. 
 - Here you can find a [diagram](./img/ex2-form.jpg) of the form, to better understand the fields needed and their behavior.  
 
+## Installation
 
-## Contributing rules
-To have any PR against this project taken into account, you must follow the following rules:
+Fork and clone the repository.
+
+Then install project dependencies:
+```
+npm install
+```
+
+There's some boilerplate files in the `src` directory. We provide a basic webpack configuration targeting these files. To build the project run:
+```
+npm run build-dev
+```
+A new `dist` folder should be created in the root folder.
+ 
+Anything beyond is up to you! 
+
+## Contributing
+When finished, submit a PR.
+
+For any PR against this project to be taken into account, it must follow these conventions:
 
 - Use of [_BEM methodology](http://getbem.com/).
-- Use of [Idiomatic.js ](https://github.com/rwaldron/idiomatic.js/) style for Javascript.
-- Fork the project. When finished, submit a PR. (_or send us the patch? I think the PR is easier for us..._)
+- Use of [Idiomatic.js](https://github.com/rwaldron/idiomatic.js/) style for Javascript.
