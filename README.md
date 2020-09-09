@@ -14,10 +14,11 @@ For this test you will have to create a landing page with a _mobile first_ appro
 
 #### Specifications:
 
+- Do not use any library for this exercise.
 - The breaking point will be at 768px.
 - No images will be used, only code and emojis. 
-- [SM Mockup](./img/ex1-sm.png)
-- [MD Mockup](./img/ex1-md.png)
+- [SM Mockup](./img/ex1-sm.png).
+- [MD Mockup](./img/ex1-md.png).
 
 
 ### Form
